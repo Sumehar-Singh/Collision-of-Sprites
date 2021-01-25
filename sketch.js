@@ -2,13 +2,13 @@ var garden, backgroundImg;
 var cat, catImg, cat_running, catStop, mouse, mouseImg, moise_teasing, mouseStop;
 function preload() {
     //load the images here
-    backgroundImg = loadImage("garden.png");
-    catImg = loadAnimation("tomOne.png");
-    cat_running = loadAnimation("tomTwo.png", "tomThree.png");
-    catStop = loadAnimation("tomFour.png");
-    mouseImg = loadAnimation("jerryOne.png");
-    mouse_teasing = loadAnimation("jerryTwo.png", "jerryThree.png");
-    mouseStop =loadAnimation("jerryFour.png");
+    backgroundImg = loadImage("images/garden.png");
+    catImg = loadAnimation("images/tomOne.png");
+    cat_running = loadAnimation("images/tomTwo.png", "images/tomThree.png");
+    catStop = loadAnimation("images/tomFour.png");
+    mouseImg = loadAnimation("images/jerryOne.png");
+    mouse_teasing = loadAnimation("images/jerryTwo.png", "images/jerryThree.png");
+    mouseStop =loadAnimation("images/jerryFour.png");
 }
 
 function setup(){
